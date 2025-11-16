@@ -1,0 +1,33 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Build / output directories
+bin/
+target/
+out/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# IDEs
+*.iml
+.idea/
+
+# Server / workspace
+Servers/
+.metadata/
+
+# Logs / temp
+*.log
+*.tmp
+
+# Compiled classes
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
