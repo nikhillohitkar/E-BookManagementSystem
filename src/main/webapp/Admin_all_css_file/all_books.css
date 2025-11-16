@@ -1,0 +1,79 @@
+/* === All Books admin css file ==== */
+.full-center {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #0d0d24; /* your background */
+}
+
+body {
+	background: linear-gradient(135deg, #8EC5FC 0%, #E0C3FC 100%);
+	font-family: 'Poppins', sans-serif;
+	min-height: 100vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	backdrop-filter: blur(15px);
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 40px;
+	box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+	padding: 20px;
+	margin-top: 40px;
+}
+
+h2 {
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.table {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 15px;
+	overflow: hidden;
+	color: #fff;
+}
+
+.table thead {
+	background: rgba(255, 255, 255, 0.25);
+	font-weight: bold;
+}
+
+.table td, .table th {
+	border: none;
+	vertical-align: middle;
+}
+
+.btn {
+	border: none;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+.btn-primary {
+	background: rgba(0, 123, 255, 0.6);
+	backdrop-filter: blur(5px);
+}
+
+.btn-danger {
+	background: rgba(255, 0, 0, 0.6);
+	backdrop-filter: blur(5px);
+}
+
+.btn:hover {
+	transform: scale(1.05);
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+	margin-top: auto;
+	color: #fff;
+	font-weight: 500;
+	background: rgba(255, 255, 255, 0.1);
+	padding: 10px 0;
+	backdrop-filter: blur(5px);
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+}

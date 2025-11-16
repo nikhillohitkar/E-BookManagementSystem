@@ -1,0 +1,39 @@
+
+/* 🌟 Background Gradient */
+body {
+    background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+}
+
+/* 🌟 Glass Card */
+.success-card {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.3);
+}
+
+/* 🌟 Check Icon */
+.success-card i {
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #28a745;
+}
+
+/* 🌟 Buttons */
+.btn-custom {
+    width: 150px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Fix extra </div> in original file */
+.remove-div { display: none; }
+

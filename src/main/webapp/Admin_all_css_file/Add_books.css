@@ -1,0 +1,117 @@
+/* Background Setup */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(135deg, #3a6186, #89253e);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Space below navbar */
+.edit-section {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Glassmorphism Box */
+.glass-form {
+    width: 430px;
+    padding: 30px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Title */
+.form-title {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Inputs & selects */
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+
+    background: rgba(255, 255, 255, 0.4);
+    font-size: 15px;
+}
+
+/* Button */
+.btn-container {
+    margin-top: 15px;
+}
+
+.glass-btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.glass-btn:hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: scale(1.04);
+}
+
+/* Messages */
+.msg-success {
+    color: #00ff80;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.msg-error {
+    color: #ff4d4d;
+    text-align: center;
+    margin-bottom: 10px;
+}

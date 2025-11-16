@@ -1,0 +1,68 @@
+/* Glassmorphism Design for Help Line Page */
+body {
+	background: linear-gradient(135deg, #74ebd5, #9face6);
+	min-height: 100vh;
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	   flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+    flex: 1;
+}
+.glass-card {
+	background: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+	padding: 40px 30px;
+	box-shadow: 0 8px 32px rgba(31, 38, 135, 0.3);
+	text-align: center;
+	color: #fff;
+	width: 400px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 40px rgba(31, 38, 135, 0.4);
+}
+
+.title {
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+
+.subtitle {
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #d6d6d6;
+}
+
+.number {
+	font-size: 1.2rem;
+	color: #00ff90;
+	margin-top: 5px;
+}
+
+.btn-primary {
+	background: rgba(255, 255, 255, 0.25);
+	border: none;
+	color: #fff;
+	border-radius: 30px;
+	padding: 10px 25px;
+	transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+	background: rgba(255, 255, 255, 0.4);
+	transform: scale(1.05);
+}
+
+.icon {
+	animation: pulse 1.8s infinite;
+}

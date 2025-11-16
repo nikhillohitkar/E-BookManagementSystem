@@ -1,0 +1,74 @@
+
+/* ======= PAGE BACKGROUND ======= */
+body {
+	background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+	padding-bottom: 120px;
+	min-height: 100vh;
+}
+
+/* ======= GLASS CARD ======= */
+.glass-card {
+	background: rgba(255, 255, 255, 0.12);
+	backdrop-filter: blur(10px);
+	border-radius: 18px;
+	padding: 18px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
+	transition: 0.3s ease-in-out;
+}
+
+.glass-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* Book Name */
+.book-name {
+	color: #fff;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+/* Author and Category */
+.author-name, .category-name {
+	color: #e0e0e0;
+	font-size: 14px;
+}
+
+/* ======= GLASS BUTTONS ======= */
+.glass-btn {
+	background: rgba(255, 255, 255, 0.18);
+	padding: 6px 14px;
+	border-radius: 12px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	transition: 0.3s;
+}
+
+.glass-btn:hover {
+	background: rgba(255, 255, 255, 0.32);
+}
+
+/* Price */
+.glass-price {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #00ffbb;
+}
+
+/* Buttons Center */
+.btn-box {
+	margin-top: 10px;
+}
+
+/* ======= FOOTER FIX ======= */
+footer {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: block;
+}
