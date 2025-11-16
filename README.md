@@ -42,25 +42,23 @@ This system allows users to register, login, browse e-books, view details, and p
 ## 📁 Project Structure
 E-BookManagementSystem/
 │
-├── src/
-│ ├── com.DAO/
-│ ├── com.DB/
-│ ├── com.entity/
-│ └── com.admin.servlet/
+├── src/main/java/
+│   ├── com.DAO/
+│   ├── com.DB/
+│   ├── com.entity/
+│   ├── com.admin.servlet/
+│   └── com.user.servlet/
 │
-├── WebContent/ or webapp/
-│ ├── index.jsp
-│ ├── login.jsp
-│ ├── register.jsp
-│ ├── view_books.jsp
-│ ├── cart.jsp
-│ ├── my_orders.jsp
-│ ├── CSS/
-│ │ └── style.css
-│ └── images/
+├── src/main/webapp/
+│   ├── Admin_all_css_file/
+│   ├── User_all_component/
+│   ├── WEB-INF/
+│   ├── *.jsp files (All Pages)
+│   └── images/
 │
-├── README.md
-└── pom.xml (if using Maven)
+├── pom.xml
+├── .gitignore
+└── README.md
 
 
 ---
@@ -172,3 +170,4 @@ License
 
 This project is for educational purposes.
 ---
+
