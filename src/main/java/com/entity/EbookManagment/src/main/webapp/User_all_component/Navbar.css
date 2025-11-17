@@ -1,0 +1,71 @@
+/* nav bar css file page*/
+/* FIXED GLASS NAVBAR */
+.glass-navbar {
+	background: rgba(255, 255, 255, 0.12);
+	backdrop-filter: blur(16px);
+	-webkit-backdrop-filter: blur(16px);
+	border-radius: 0;
+	padding: 12px 25px;
+	box-shadow: 0 8px 32px rgba(31, 38, 135, 0.25);
+	width: 100%;
+	z-index: 9999;
+	top: 0 !important;
+}
+
+/* LOGO */
+.logo {
+	font-size: 26px;
+	font-weight: 700;
+}
+
+/* NAV LINKS */
+.nav-link {
+	font-size: 16px;
+	margin-right: 15px;
+	transition: 0.3s ease;
+}
+
+.nav-link:hover {
+	color: #e6e6ff !important;
+}
+
+/* SEARCH BAR */
+.search-area {
+	gap: 10px;
+}
+
+.glass-input {
+	height: 38px;
+	width: 230px;
+	padding-left: 12px;
+	border-radius: 12px;
+	border: none;
+	background: rgba(255, 255, 255, 0.20);
+	color: #fff;
+}
+
+.glass-input::placeholder {
+	color: #eee;
+}
+
+/* GLASS BUTTON */
+.glass-btn {
+	padding: 7px 16px;
+	border-radius: 12px;
+	background: rgba(255, 255, 255, 0.25);
+	color: white;
+	border: none;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.glass-btn:hover {
+	background: rgba(255, 255, 255, 0.40);
+}
+
+/* TOGGLER */
+.glass-toggler {
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 10px;
+	padding: 6px;
+}

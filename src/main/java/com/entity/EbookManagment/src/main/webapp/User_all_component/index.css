@@ -1,0 +1,84 @@
+/* ------------------------------
+   GLOBAL Glass Effect
+--------------------------------*/
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Page container spacing */
+.page-container {
+    padding: 40px 0;
+}
+
+/* Section Title */
+.section-title {
+    font-weight: bold;
+    font-size: 26px;
+    color: #3f51b5;
+    margin-bottom: 25px;
+}
+
+/* ------------------------------
+   Glass Card
+--------------------------------*/
+.glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 18px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.25);
+    transition: 0.3s ease-in-out;
+}
+
+.glass-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 36px rgba(31, 38, 135, 0.35);
+}
+
+/* Book name */
+.book-name {
+    font-size: 18px;
+    color: #1a237e;
+    font-weight: 600;
+}
+
+/* Author & category text */
+.author-name, .category-name {
+    color: #424242;
+    font-size: 14px;
+}
+
+/* ------------------------------
+   Buttons
+--------------------------------*/
+.glass-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    backdrop-filter: blur(6px);
+    transition: 0.3s;
+    margin-right: 5px;
+}
+
+.glass-btn:hover {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* Price tag */
+.glass-price {
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: rgba(0, 150, 136, 0.25);
+    border-radius: 10px;
+    font-weight: bold;
+    color: #004d40;
+    display: inline-block;
+}

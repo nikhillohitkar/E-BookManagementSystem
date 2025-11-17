@@ -1,0 +1,56 @@
+/* 🌟 Full-page gradient background */
+body {
+    background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+    background-attachment: fixed;
+    font-family: "Poppins", sans-serif;
+}
+
+/* 🌟 Glassmorphism Box */
+.glass-container {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+}
+
+/* 🌟 Glass Table */
+.glass-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+.glass-table th {
+    padding: 15px;
+    background: rgba(0, 123, 255, 0.6);
+    color: white;
+    font-size: 18px;
+}
+
+.glass-table td {
+    padding: 15px;
+    color: #000;
+    font-size: 16px;
+}
+
+.glass-table tr:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+/* 🌟 Delete Button */
+.btn-danger {
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+
+/* Remove extra </div> error */
+.remove-div {
+    display: none;
+}

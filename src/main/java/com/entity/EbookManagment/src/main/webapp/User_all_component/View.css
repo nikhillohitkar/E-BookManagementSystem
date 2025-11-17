@@ -1,0 +1,88 @@
+/* Vew css file */
+body {
+    background: linear-gradient(135deg, #6a85ff, #7f53ac);
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+/* MAIN CARD */
+.book-details-card {
+    width: 95%;
+    min-height: 650px;
+    padding: 40px;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+}
+
+
+/* BIG BOOK IMAGE */
+.book-img-large {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+/* TEXT STYLE */
+.book-meta {
+    margin: 10px;
+    font-size: 20px;
+    color: #eee;
+}
+
+/* MINI INFO BOXES */
+.glass-mini-box {
+    padding: 15px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    margin-bottom: 10px;
+}
+
+/* BUTTONS */
+.glass-btn {
+    padding: 10px 18px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.25);
+    backdrop-filter: blur(10px);
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+.glass-btn:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+/* PRICE BUTTON */
+.glass-price-btn {
+    padding: 10px 18px;
+    border-radius: 12px;
+    background: rgba(0, 200, 120, 0.4);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    /* Add Addrase css file */
+}.glass-card {
+    margin-top: 60px;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    color: #fff;
+}
+
+/* Heading style */
+.glass-card h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}

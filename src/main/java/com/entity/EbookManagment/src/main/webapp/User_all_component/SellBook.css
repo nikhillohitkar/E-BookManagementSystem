@@ -1,0 +1,58 @@
+
+
+/* ======= Background ======= */
+body {
+	background: linear-gradient(135deg, #000428, #004e92);
+	min-height: 100vh;
+	padding-bottom: 100px;
+}
+
+/* ======= Glass Card ======= */
+.glass-card {
+	background: rgba(255, 255, 255, 0.14);
+	padding: 35px 25px;
+	border-radius: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	backdrop-filter: blur(12px);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+	transition: 0.3s ease-in-out;
+}
+
+.glass-card:hover {
+	transform: translateY(-6px);
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+}
+
+/* ======= Input Fields ======= */
+.glass-input {
+	background: rgba(255, 255, 255, 0.18);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.glass-input::placeholder {
+	color: #e0e0e0;
+}
+
+/* ======= Glass Button ======= */
+.glass-btn {
+	background: rgba(0, 255, 169, 0.3);
+	border: 1px solid rgba(0, 255, 169, 0.6);
+	border-radius: 12px;
+	color: white;
+	font-weight: bold;
+	transition: 0.3s ease;
+}
+
+.glass-btn:hover {
+	background: rgba(0, 255, 169, 0.5);
+	transform: scale(1.05);
+}
+
+/* Labels */
+label {
+	font-size: 15px;
+	font-weight: 500;
+}

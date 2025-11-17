@@ -5,11 +5,7 @@
   <groupId>com.EbookManagment</groupId>
   <artifactId>EbookManagment</artifactId>
   <packaging>war</packaging>
-    <properties>
-        <maven.compiler.source>20</maven.compiler.source>
-        <maven.compiler.target>20</maven.compiler.target>
-    </properties>
-    <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <name>EbookManagment Maven Webapp</name>
   <url>http://maven.apache.org</url>
 

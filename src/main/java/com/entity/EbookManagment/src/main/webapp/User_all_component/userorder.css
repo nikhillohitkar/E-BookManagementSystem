@@ -1,0 +1,59 @@
+body {
+	background: linear-gradient(135deg, #1e3c72, #2a5298);
+	min-height: 100vh;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* MAIN GLASS CONTAINER */
+.glass-container {
+	width: 90%;
+	max-width: 900px;
+	margin: 100px auto 40px auto;
+	padding: 30px;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.12);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+	color: white;
+}
+
+/* TITLE */
+.glass-title {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+/* GLASS TABLE */
+.glass-table {
+	width: 100%;
+	border-collapse: collapse;
+	border-radius: 10px;
+	overflow: hidden;
+	backdrop-filter: blur(15px);
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.glass-table thead {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.glass-table th, .glass-table td {
+	padding: 14px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+
+.glass-table tr:nth-child(even) {
+	background: rgba(255, 255, 255, 0.08);
+}
+
+/* FOOTER FIX */
+footer {
+	margin-top: 30px;
+}
